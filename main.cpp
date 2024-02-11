@@ -94,11 +94,11 @@ std::string build_string(std::istream& in_stream) {
 
     cout << correctlyFormattedLine << endl;
 
-    //When the user enters the string done, the string is complete and should be returned.
-    std::string ans = "";
-    while (ans != "done") {
-        std::cin >> ans;
-    }
+    ////When the user enters the string done, the string is complete and should be returned.
+    //std::string ans = "";
+    //while (ans != "done") {
+    //    std::cin >> ans;
+    //}
 
     return correctlyFormattedLine;
 }
